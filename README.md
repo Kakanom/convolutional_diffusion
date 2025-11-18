@@ -28,3 +28,15 @@ python els_script.py --expname cifar10_resnet_els --dataset cifar10 --scoremodul
 ```
 
 This specific command will generate a directory cifar10_resnet_els with 100 (E)LS outputs and corresponding input seeds.
+
+`utils/patch_knn.py` - реализация kNN на PyTorch + версия на KD-tree
+
+### Запуск kNN
+```bash
+python knn_demo.py
+```
+
+### Запуск kNN с отображением картинок
+```bash
+python knn_demo_show.py
+```
