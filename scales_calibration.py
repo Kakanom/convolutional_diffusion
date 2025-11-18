@@ -92,7 +92,7 @@ def calibrate(
 						schedule=schedule)
 		elif scoremoduletype == 'LS':
 			mod = LocalScoreModule(1, dataset,
-						kernel_size=kernel_size
+						kernel_size=kernel_size,
 						image_size=image_size,
 						batch_size=len(dataset),
 						schedule=schedule)
